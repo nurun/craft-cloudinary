@@ -1,3 +1,6 @@
+
+Forked from [https://github.com/thomasvantuycom/craft-cloudinary](https://github.com/thomasvantuycom/craft-cloudinary)
+
 # Cloudinary for Craft CMS
 
 This plugin integrates [Cloudinary](https://cloudinary.com/) with [Craft CMS](https://craftcms.com/). Assets can be uploaded from Craft's control panel and then transformed and delivered by Cloudinary, even if stored in a different filesystem. The plugin is compatible with your existing Craft template code and named image transforms.
@@ -53,4 +56,4 @@ In addition, you can incorporate any of [Cloudinary's transformation options](ht
 
 <img src="{{ asset.getUrl(thumb) }}">
 ```
-Transformation options should be in camelCase, meaning `aspect_ratio` becomes `aspectRatio`, or `fetch_format` becomes `fetchFornat`.
+Transformation options should be in camelCase, meaning `aspect_ratio` becomes `aspectRatio`, or `fetch_format` becomes `fetchFormat`.
